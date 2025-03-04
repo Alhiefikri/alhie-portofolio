@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Alhie Fikri Portfolio",
     images: [
       {
-        url: "https://alhiefikri.vercel.app/public/og-image.png", // Ganti dengan URL gambar OpenGraph Anda
+        url: "https://alhiefikri.vercel.app/og-image.png", // Ganti dengan URL gambar OpenGraph Anda
         width: 1200,
         height: 630,
         alt: "Alhie Fikri Portfolio",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Alhie Fikri - Web Developer Portfolio",
     description:
       "Hi, I'm Alhie Fikri, a passionate web developer specializing in modern web technologies like React, Next.js, Tailwind CSS, and more. Explore my projects and skills!",
-    images: ["https://alhiefikri.vercel.app/public/og-image.png"], // Ganti dengan URL gambar Twitter Anda
+    images: ["https://alhiefikri.vercel.app/og-image.png"], // Ganti dengan URL gambar Twitter Anda
   },
 };
 
