@@ -13,9 +13,9 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About me",
+  title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate officiis aspernatur consectetur deleniti ducimus quasi? Rem.",
+    "I am a passionate web developer with a focus on creating modern, responsive, and user-friendly applications. With a strong foundation in frontend and backend technologies, I am constantly learning and improving my skills to deliver high-quality solutions.",
   info: [
     { fieldName: "Name", value: "Moh. Alif Fikri" },
     { fieldName: "Phone", value: "(+62) 219 071 5067" },
@@ -33,22 +33,28 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate officiis aspernatur consectetur deleniti ducimus quasi?",
+    "I have pursued formal education and supplementary courses to build a strong foundation in web development and modern technologies.",
   items: [
     {
       institution: "University of Ichsan Gorontalo",
-      degree: "Informatics Engineer",
+      degree: "Informatics Engineering",
       duration: "2019 - 2023",
+      description:
+        "Gained a solid foundation in programming, algorithms, and software development during my undergraduate studies.",
     },
     {
       institution: "Udemy - Jonas Schmedtmann",
-      degree: "Master modern React from beginner to advanced! Next.js,",
+      degree: "Master Modern React from Beginner to Advanced (Next.js)",
       duration: "2024",
+      description:
+        "Completed an in-depth course on React and Next.js, focusing on building modern, scalable, and efficient web applications.",
     },
     {
       institution: "KelasFullstack.id Course",
       degree: "Fullstack Web Development Course",
       duration: "2024",
+      description:
+        "Learned full-stack development techniques, including frontend (React, Tailwind CSS) and backend (PHP, Node.js) technologies.",
     },
   ],
 };
@@ -58,50 +64,54 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate officiis aspernatur consectetur deleniti ducimus quasi?",
+    "I have gained hands-on experience through internships and self-directed learning, focusing on modern web development technologies and tools.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Government Institution",
+      position: "Intern",
+      duration: "2 Months",
+      description:
+        "Trained employees in Microsoft Office tools and streamlined data management processes using Excel.",
     },
     {
-      company: "Web Design",
-      position: "Fulll Stack Developer",
-      duration: "Summer 2022",
+      company: "Self-Learning & Projects",
+      position: "Web Development Enthusiast",
+      duration: "2023 - Present",
+      description:
+        "Building dynamic and responsive web applications using React, Tailwind CSS, Next.js, and PHP. Continuously improving skills through online courses and personal projects.",
     },
   ],
 };
 
 // skills data
 const skills = {
-  title: "My skills",
+  title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate",
+    "I have developed proficiency in a range of modern web development technologies and tools, enabling me to build dynamic and responsive applications.",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML 5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "CSS 3",
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "JavaScript",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js",
+      name: "Next.js",
     },
     {
       icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      name: "Tailwind CSS",
     },
     {
       icon: <FaNodeJs />,

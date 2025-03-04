@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Building modern websites using HTML, CSS, JavaScript, and Next.js for responsive and user-friendly experiences.",
     href: "",
   },
   {
     num: "02",
     title: "Game Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Exploring game development concepts and tools to create interactive and engaging digital games.",
     href: "",
   },
   {
     num: "03",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Designing intuitive and visually appealing interfaces to enhance user engagement and satisfaction.",
     href: "",
   },
   {
     num: "04",
     title: "Logo Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Creating unique and memorable logos that represent brand identity and values effectively.",
     href: "",
   },
 ];
